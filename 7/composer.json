@@ -1,0 +1,19 @@
+{
+    "name": "wits/7",
+    "description": "Demo project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jaaziel Hinojosa",
+            "email": "jaaziel.hinojosa.p@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "Styde\\": "src/"
+        }
+    }
+}
